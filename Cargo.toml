@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 axum = "0.8.1"
-sqlx = { version = "0.7", features = ["postgres", "runtime-tokio-native-tls"] }
+sqlx = { version = "0.8", features = ["postgres", "runtime-tokio-native-tls"] }
 tokio = { version = "1", features = ["full"] }
 async-trait = "0.1"
 dotenv = "0.15"
